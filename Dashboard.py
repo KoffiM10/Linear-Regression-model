@@ -322,7 +322,7 @@ with tab3:
 st.markdown("---")
 st.markdown(
     "<div style='text-align: center; color: #666;'>"
-    "© 2024 Prédiction CA Entreprise | Powered by AI & Streamlit"
+    "© 2025 Prédiction CA Entreprise | Insight by Koffi.ds "
     "</div>", 
     unsafe_allow_html=True
 )

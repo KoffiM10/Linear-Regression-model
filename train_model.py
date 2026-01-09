@@ -8,8 +8,8 @@ from sklearn.compose import ColumnTransformer
 
 # 📂 Définir les chemins de manière robuste
 current_dir = os.path.dirname(os.path.abspath(__file__))
-data_path = os.path.join(current_dir, "..", "Data", "788438_data.csv")
-model_path = os.path.join(current_dir, "..", "model.pkl")
+data_path = os.path.join(current_dir,  "Data", "788438_data.csv")
+model_path = os.path.join(current_dir,  "model.pkl")
 
 print(f"📁 Chargement des données depuis: {data_path}")
 

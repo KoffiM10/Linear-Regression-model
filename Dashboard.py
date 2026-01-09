@@ -58,8 +58,8 @@ st.markdown("Entrez les données de l'entreprise pour estimer le revenu prédit 
 
 # 📍 Chemins robustes
 current_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(current_dir, "..", "model.pkl")
-data_path = os.path.join(current_dir, "..", "Data", "788438_data.csv")
+model_path = os.path.join(current_dir,  "model.pkl")
+data_path = os.path.join(current_dir,  "Data", "788438_data.csv")
 
 # 🔍 Chargement des données et modèle avec gestion d'erreurs
 @st.cache_data
